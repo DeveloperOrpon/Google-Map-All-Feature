@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+  <include layout="@layout/content_home"/>
+
+    <ImageView
+        android:id="@+id/toolbar"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_menu" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/action_settings"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+<!--  <fragment android:id="@+id/autoCompletePlace"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+<!--      />-->
+
+  <SearchView
+      android:id="@+id/searchLocation"
+      android:layout_marginTop="16dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginRight="30dp"
+      android:queryHint="Search Your Location on map"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

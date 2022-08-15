@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyBar</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">MyBar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="api_key">AIzaSyC1rk3DDuCKf1j0jO1oz3RmA8GhAKe4Vww</string>
+</resources>
